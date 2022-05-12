@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="Member">
+	<select id="checkId" parameterType="string" resultType="_int">
+		SELECT COUNT(ID) FROM TABLE_MEMBER
+		WHERE ID = #{id}
+	</select>
+
+
+	<insert id="join" parameterType="member">
+		INSERT INTO TABLE_MEMBER (ID, PW, NAME, AGE)
+		VALUES(#{id}, #{pw}, #{name}, #{age})
+	</insert>
+	
+	<select id="login" parameterType="map" resultType="_int">
+		SELECT COUNT(*) FROM TABLE_MEMBER
+		WHERE ID = #{id} AND PW = #{pw}
+	</select>
+	
+	<update id="modify" parameterType="member">
+		UPDATE TABLE_MEMBER 
+		SET	NAME = #{name}, AGE = #{age}
+		WHERE ID = #{id}
+	</update>
+	
+	<delete id="remove" parameterType="string">
+		DELETE FROM TABLE_MEMBER WHERE ID = #{id}
+	</delete>
+	
+	<select id="findId" parameterType="map" resultType="string">
+		SELECT * FROM TABLE_MEMBER 
+		WHERE NAME = #{name} AND PW = #{pw}
+	</select>
+	
+	<select id="findMember" resultType="member">
+		SELECT ID, PW, NAME, AGE FROM TABLE_MEMBER
+		WHERE AGE != 20
+	</select>
+	
+</mapper>
