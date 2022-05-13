@@ -5,7 +5,11 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<<<<<<< HEAD
 
+=======
+<link rel="stylesheet" href="assets/css/style.css">
+>>>>>>> 147a34bd87ea5d1d38558adb9362b1cd2087ceed
 </head>
 <body>
  <div class="root">
@@ -32,8 +36,13 @@
             <!-- 메인컨테이너 -->
             <div class="menu-container">
                 <div class="navi-content">
+<<<<<<< HEAD
                     <a class="active" href="" style="text-decoration: none;">용병모집</a>
                     <a href="" style="text-decoration: none;">용병지원</a>
+=======
+                    <a href="" style="text-decoration: none;">용병신청</a>
+                    <a href="" style="text-decoration: none;">용병모집</a>
+>>>>>>> 147a34bd87ea5d1d38558adb9362b1cd2087ceed
                     <a href="" style="text-decoration: none;">팀매치</a>
                     <a href="" style="text-decoration: none;">커뮤니티</a>
                 </div>

@@ -1,9 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
+<<<<<<< HEAD
 	pageEncoding="UTF-8"%>
+=======
+    pageEncoding="UTF-8"%>
+>>>>>>> 147a34bd87ea5d1d38558adb9362b1cd2087ceed
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
+<<<<<<< HEAD
 <link rel="stylesheet" href="/assets/css/team.css">
 <title>팀매치 작성</title>
 </head>
@@ -395,5 +400,11 @@
 		</div>
 	</div>
 	<%@ include file="/app/fix/footer.jsp"%>
+=======
+<title>Insert title here</title>
+</head>
+<body>
+
+>>>>>>> 147a34bd87ea5d1d38558adb9362b1cd2087ceed
 </body>
 </html>

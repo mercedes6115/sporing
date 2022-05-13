@@ -1,23 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+<<<<<<< HEAD
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+=======
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-11.0.15">
+>>>>>>> 147a34bd87ea5d1d38558adb9362b1cd2087ceed
 		<attributes>
 			<attribute name="module" value="true"/>
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
+<<<<<<< HEAD
 	<classpathentry exported="true" kind="lib" path="C:/jsp2_kyg_0900/workspace/sporing/WebContent/WEB-INF/lib/json-simple-1.1.1.jar">
+=======
+	<classpathentry exported="true" kind="lib" path="C:/jsp_ljs/resource/json-simple-1.1.1.jar">
+>>>>>>> 147a34bd87ea5d1d38558adb9362b1cd2087ceed
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+<<<<<<< HEAD
 	<classpathentry exported="true" kind="lib" path="C:/jsp2_kyg_0900/workspace/sporing/WebContent/WEB-INF/lib/mybatis-3.5.9.jar">
+=======
+	<classpathentry exported="true" kind="lib" path="C:/jsp_ljs/resource/mybatis-3.5.9.jar">
+>>>>>>> 147a34bd87ea5d1d38558adb9362b1cd2087ceed
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+<<<<<<< HEAD
 	<classpathentry exported="true" kind="lib" path="C:/jsp2_kyg_0900/workspace/sporing/WebContent/WEB-INF/lib/mysql-connector-java-8.0.27.jar">
+=======
+	<classpathentry exported="true" kind="lib" path="C:/jsp_ljs/resource/mysql-connector-java-8.0.27.jar">
+>>>>>>> 147a34bd87ea5d1d38558adb9362b1cd2087ceed
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
@@ -29,7 +45,12 @@
 	</classpathentry>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+<<<<<<< HEAD
 	<classpathentry exported="true" kind="lib" path="C:/jsp2_kyg_0900/workspace/sporing/WebContent/WEB-INF/lib/jstl.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/jsp2_kyg_0900/workspace/sporing/WebContent/WEB-INF/lib/standard.jar"/>
+=======
+	<classpathentry exported="true" kind="lib" path="C:/jsp_ljs/resource/jstl.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/jsp_ljs/resource/standard.jar"/>
+>>>>>>> 147a34bd87ea5d1d38558adb9362b1cd2087ceed
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
