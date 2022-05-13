@@ -1,0 +1,27 @@
+.root .mypage-container * {
+    font-family: "sbaggro","nucleo-icons";
+    font-weight: lighter;
+}
+.root .root-container {
+    max-width: 800px;
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+body {
+    background: white;
+    color: #1a1a1a;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+    background-color: #fff;
+}
