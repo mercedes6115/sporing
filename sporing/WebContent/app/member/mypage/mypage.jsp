@@ -5,8 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <title>스포링: 간단하게 팀 구해서 운동하자!</title>
-<link rel="stylesheet" href="/assets/css/mypage/mypage.css">
-<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/mypage/mypage.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 
 </head>
 <body>
