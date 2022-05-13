@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'ONE-Mobile-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#container {
+	font-family: 'ONE-Mobile-Regular';
+    max-width: 928px;
+    margin: 0 auto;
+    background-color: #fff;
+    display: block;
+    width: 100%;
+}
+
+#wrap {
+    display: block;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+#sportsCate {
+	margin-top: 8px;
+}
+
+.select-sports, .select-area, .select-people {
+	width: 100%;
+	border-radius: 5px;
+	height: 30px;
+	border-width : 1.5px;
+}
+
+.gender {
+	display: flex;
+}
+
+.select-gender {
+	flex: 1;		
+}
+
+#datepicker, #gamePay {
+	width: 100%;
+	border-radius: 5px;
+	height: 25px;
+	border-width : 1.5px;
+}
+
+.gap {
+	height: 8px;
+}
+
+#cancel, #submit {
+	width: 230px;
+	height: 30px;
+}
+
+#cancel {
+	margin-left: 7px;
+	background-color: red;
+}
+
+#submit {
+	background-color: white;
+}
