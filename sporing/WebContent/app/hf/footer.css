@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+footer{
+    display: block;
+}
+footer a,p{
+    color: beige;
+}
+.root footer{
+    background-color: #1a1a1a;
+    font-size: 11px;
+}
+.root footer .footer-container{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 70px 0;
+}
+.footer-a-tag{
+    margin-bottom: 1rem!important;
+    margin-top: 1rem!important;
+}
+
+.root footer .footer-container .copyright {
+    padding: 20px 0;
+}
+.sns-wrap a{
+    text-decoration: none;
+    margin: 0 10px;
+}

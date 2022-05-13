@@ -1,0 +1,350 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'ONE-Mobile-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+element.style {
+	
+}
+
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.root {
+    display: flex;
+    flex-direction: column;
+    min-width: 65%;
+}
+.container-fluid{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 3rem!important;
+}
+
+.narrow-container{
+	max-width: 540px;
+    margin: auto;
+}
+    
+}
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pb-3{
+	    padding-bottom: 1rem!important;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+.mr-auto, .mx-auto {
+    margin-right: auto!important;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.row-no-gutters{
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+div {
+    display: block;
+}
+.p-3 {
+    padding: 1rem!important;
+}
+.form-group-input-wrap1{
+	
+	margin-bottom: 0.5rem!important;
+	position: relative;
+}
+
+.form-control1{
+	width: 100%;
+	margin: 15px 0;
+    color: #1a1a1a;
+    font-size: 12px;
+    line-height: 1.2;
+    height: 38px;
+    border: 1px solid #f2f2f2;
+    padding: 20px 15px;
+}
+
+.form-group-input-wrap2{
+	
+	margin-bottom: 0.5rem!important;
+	position: relative;
+}
+
+.form-control2{
+		margin: 15px 0;
+    color: #1a1a1a;
+    font-size: 12px;
+    line-height: 1.2;
+    height: 38px;
+    border: 1px solid #f2f2f2;
+    padding: 20px 15px;
+}
+
+.empty-wrap {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+.empty-wrap span {
+    display: flex;
+    align-items: center;
+}
+
+.root .input-wrap .empty-wrap[data-show=false] {
+    display: none;
+}
+.text-caution, a.text-caution:focus, a.text-caution:hover {
+    color: #f7931e !important;
+}
+.btn-male {
+    background-color: #0074ff;
+    color: #fff;
+}
+.btn, .navbar .navbar-nav>a.btn {
+    border-width: 2px;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    padding: 12px 22px 9px;
+    outline: none;
+    transition: all 150ms linear;
+}
+
+.py-3 {
+    padding-bottom: 1rem!important;
+}
+.py-3 {
+    padding-top: 1rem!important;
+}
+.mt-3{
+    margin-top: 1rem!important;
+}
+.mb-1 {
+    margin-bottom: 0.25rem!important;
+}
+.w-100 {
+    width: 100%!important;
+}
+.rounded {
+    border-radius: 0.25rem!important;
+}
+.btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+}
+ [type=submit], button {
+    -webkit-appearance: button;
+}
+
+.or-line {
+    display: flex;
+    align-items: center;
+}
+.or-line span.line {
+    border: 0.5px solid #f2f2f2;
+    margin: 20px 0;
+}
+.line {
+    width: 100%;
+    height: 1px;
+}
+.or-line span.text {
+    margin: 0 10px;
+    white-space: nowrap;
+    color: rgba(0,0,0,.5)!important;
+}
+
+.social-logo {
+    display: block;
+    text-align: center;
+    padding: 14px 0 11px 30px;
+    border-radius: 4px;
+    position: relative;
+    font-size: 14px !important;
+    margin: 15px 0;
+}
+
+.social-logo.kakao-logo-wrap {
+    background-color: #ffe812;
+}
+.d-flex {
+    display: flex!important;
+}
+
+.justify-content-between {
+    justify-content: space-between!important;
+}
+.align-items-center {
+    align-items: center!important;
+}
+
+.btn-main.btn-link {
+    color: #1c203c;
+}
+
+.btn-link {
+    border: 0;
+    padding: 0.5rem 0.7rem;
+    background-color: transparent;
+}
+.btn{
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border-radius: 0;
+    outline: none;
+    transition: all 150ms linear;
+}
+
+button {
+    writing-mode: horizontal-tb !important;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-stretch: ;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.swal2-container .swal2-actions {
+    margin: 0.5rem auto 0 !important;
+}
+
+[class^=swal2] {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.swal2-actions {
+    display: flex;
+    z-index: 1;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+}
+
+.swal2-container * {
+    font-family: "sbaggro","nucleo-icons";
+}
+
+.swal2-html-container {
+    white-space: pre;
+}
+
+.root .login-container {
+    padding: 0 20px;
+}
+
+.root .login-container .title {
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 20px 0 !important;
+    color: #1a1a1a;
+}
+
+.text-left {
+    text-align: left!important;
+}
+ .form-group1 {
+    margin-bottom: 10px;
+    position: relative;
+}
+.mb-31 {
+    margin-bottom: 1rem!important;
+}
+.pb-4, .py-4 {
+    padding-bottom: 1.5rem!important;
+}
+
+.pt-4, .py-4 {
+    padding-top: 1.5rem!important;
+}
+.pl-3, .px-3 {
+    padding-left: 1rem!important;
+}
+.pr-3, .px-3 {
+    padding-right: 1rem!important;
+}
+.login-container {
+    padding: 0 20px;
+}
+
+.form-control3 {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    background-clip: padding-box;
+
+}
+.swal2-close {
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    width: 1.2em;
+    height: 1.2em;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: -1.2em;
+    padding: 0;
+    overflow: hidden;
+    transition: color .1s,box-shadow .1s;
+    border: none;
+    border-radius: 5px;
+    background: 0 0;
+    color: #ccc;
+    font-family: serif;
+    font-family: monospace;
+    font-size: 2.5em;
+    cursor: pointer;
+    justify-self: end;
+}
+
+.mb-auto, .my-auto {
+    margin-bottom: auto!important;
+}
+.mt-auto, .my-auto {
+    margin-top: auto!important;
+}
+.ml-1, .mx-1 {
+    margin-left: 0.25rem!important;
+}
+.mr-1, .mx-1 {
+    margin-right: 0.25rem!important;
+}
